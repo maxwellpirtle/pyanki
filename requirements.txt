@@ -1,0 +1,2 @@
+httpx
+dataclasses-json
