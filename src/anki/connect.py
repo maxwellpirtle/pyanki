@@ -2738,7 +2738,6 @@ class AsyncClient(BaseClient):
     async def gui_add_vocab_card(self, deck_name: str, front: str, back: str, examples: str, images: List[Resource] = None, tags: List[str] = None):
         return await self.add_vocab_card(deck_name=deck_name, front=front, back=back, examples=examples, open_gui=True, images=images, tags=tags)
 
-
 class Client(BaseClient):
     """A small wrapper around the AnkiConnect API
 

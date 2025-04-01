@@ -7,7 +7,6 @@ class Order(enum.Enum):
     DESCENDING = "descending"
 
 class Column(enum.Enum):
-    CUSTOM = "custom"
     ANSWER = "answer"
     CARD_MOD = "cardMod"
     CARDS = "template"
@@ -27,6 +26,7 @@ class Column(enum.Enum):
     STABILITY = "stability"
     DIFFICULTY = "difficulty"
     RETRIEVABILITY = "retrievability"
+
 
 @dataclass_json
 @dataclass

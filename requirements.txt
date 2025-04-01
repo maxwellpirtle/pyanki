@@ -1,2 +1,3 @@
 httpx
 dataclasses-json
+prompt-toolkit
